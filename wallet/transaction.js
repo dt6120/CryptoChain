@@ -1,4 +1,4 @@
-const uuid = require('uuid/dist/v1');
+const uuid = require('uuid').v1;
 const { verifySignature } = require('../util/index')
 
 class Transaction {
